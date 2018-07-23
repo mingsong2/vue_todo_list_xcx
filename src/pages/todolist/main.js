@@ -6,7 +6,7 @@ app.$mount()
 export default{
   config: {
     'window': {
-      navigationBarTitleText: 'todolist迁移'
+      "navigationBarTitleText": "todolist迁移"
     }
   }
 }

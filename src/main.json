@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/me/main",
     "pages/index/main",
     "pages/counter/main",
     "pages/logs/main",
@@ -7,8 +8,25 @@
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarBackgroundColor": "#EA5149",
+    "navigationBarTitleText": "蜗牛图书",
     "navigationBarTextStyle": "black"
+  },
+  "tabBar":{
+    "selectedColor":"#EA5149",
+    "list":[
+      {
+        "pagePath":"pages/todolist/main",
+        "text":"代办事项"
+      },
+      {
+        "pagePath":"pages/counter/main",
+        "text":"计时器"
+      },
+      {
+        "pagePath":"pages/me/main",
+        "text":"个人中心"
+      }
+    ]
   }
 }
